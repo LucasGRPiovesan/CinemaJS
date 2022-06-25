@@ -12,6 +12,12 @@
     padding-top: 3rem;
 }
 
+    .principal__titulo {
+        
+        width: 90%;
+        margin-bottom: 0.5rem;
+    }
+
     .principal__destaques {
 
         display: grid;
@@ -41,3 +47,31 @@
 
             width: 15%;
         }
+
+    .principal__promocao {
+
+        display: flex;
+
+        height: 25rem;
+        width: 90%;
+
+        margin-bottom: 5rem;
+    }
+
+        .principal__promocao___img {
+
+            width: 30%;
+        }
+        
+        .principal__promocao___btn {
+            
+            width: 70%;
+        }
+
+    .principal__marketing {
+
+        width: 90%;
+        height: 40rem;
+
+        margin-bottom: 5rem;
+    }

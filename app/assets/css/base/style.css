@@ -7,15 +7,26 @@
     border: 1px solid white;
 }
 
+.active {
+            
+    border-left: 10px solid white;
+}
+
+.centralizado {
+    margin: 0 auto;
+    text-align: center;
+}
+
 body {
 
     display: grid;
     grid-template-areas: 
-        "cabecalho""pagina"
-        "rodape"
+        "cabecalho"
+                "pagina"
+                "rodape"
     ;
 
-    grid-template-rows: 90% 10%;
+    grid-template-rows: auto 10rem;
     grid-template-columns: 15% 85%;
 
     width: 100vw;

@@ -13,20 +13,28 @@
 </head>
 <body>
     <header class="cabecalho container">
-        <h1 class="cabecalho__titulo container">CinemaJS</h1>
-        <nav class="cabecalho__menu container">
-            <a class="cabecalho__menu--item container" href="#">Home</a>
-            <a class="cabecalho__menu--item container" href="#">Em Exibição</a>
-            <a class="cabecalho__menu--item container" href="#">Em Breve</a>
-            <a class="cabecalho__menu--item container" href="#">Contato</a>
+        <h1 class="cabecalho__titulo">CinemaJS</h1>
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu--item  active" href="#">Home</a>
+            <a class="cabecalho__menu--item" href="#">Em Exibição</a>
+            <a class="cabecalho__menu--item" href="#">Em Breve</a>
+            <a class="cabecalho__menu--item" href="#">Contato</a>  
         </nav>
     </header>
     <main class="principal container">
+        <div class="principal__titulo">
+            <h2 class="principal__titulo--titulo">Em Destaque</h2>
+            <hr class="principal__titulo--linha">
+        </div>
         <section class="principal__destaques container">
-                <a class="principal__destaques--filme container" href="#"></a>
-                <a class="principal__destaques--filme container" href="#"></a>
-                <a class="principal__destaques--filme container" href="#"></a>
+            <a class="principal__destaques--filme container" href="#"></a>
+            <a class="principal__destaques--filme container" href="#"></a>
+            <a class="principal__destaques--filme container" href="#"></a>
         </section>
+        <div class="principal__titulo">
+            <h2 class="principal__titulo">Em Exibição</h2>
+            <hr class="principal__linha">
+        </div>
         <section class="principal__exibicao container">
             <a class="principal__exibicao--filme container" href="#"></a>
             <a class="principal__exibicao--filme container" href="#"></a>
@@ -38,14 +46,24 @@
             <a class="principal__exibicao--filme container" href="#"></a>
             <a class="principal__exibicao--filme container" href="#"></a>
         </section>
-        <section class="principal__promocao">
+        <div class="principal__titulo">
+            <h2 class="principal__titulo">Confira nossas promoções</h2>
+            <hr class="principal__linha">
+        </div>
+        <section class="principal__promocao container">
+            <div class="principal__promocao___img container"></div>
+            <div class="principal__promocao___btn container"></div>
         </section>
-        <section class="principal__marketing">
-
+        <div class="principal__titulo">
+            <h2 class="principal__titulo centralizado">Por quê o CinemaJS?</h2>
+        </div>
+        <section class="principal__marketing container">
         </section>
     </main>
     <footer class="rodape container">
-
+        <h3 class="rodape__logo">CinemaJS&copy;&nbsp;|&nbsp;2022</h3>
+        <div class="rodape__contatos">
+        </div>
     </footer>
 </body>
 </html>
