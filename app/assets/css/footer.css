@@ -1,0 +1,17 @@
+.rodape {
+
+    display: flex;
+
+    grid-area: rodape;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+    .rodape__logo {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
