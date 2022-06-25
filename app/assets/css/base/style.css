@@ -1,0 +1,26 @@
+:root {
+
+    
+}
+
+.container {
+    border: 1px solid white;
+}
+
+body {
+
+    display: grid;
+    grid-template-areas: 
+        "cabecalho""pagina"
+        "rodape"
+    ;
+
+    grid-template-rows: 90% 10%;
+    grid-template-columns: 15% 85%;
+
+    width: 100vw;
+    height: 100%;
+
+    color: white;
+    background: black;
+}

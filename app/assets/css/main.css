@@ -1,0 +1,43 @@
+.principal {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    grid-area: pagina;
+    
+    grid-column: 2 / 3; 
+    grid-row: 1 / 2;
+
+    padding-top: 3rem;
+}
+
+    .principal__destaques {
+
+        display: grid;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: 20rem 20rem;
+
+        margin-bottom: 5rem;
+        width: 90%;
+    }
+
+        .principal__destaques--filme:nth-child(1) {
+            grid-column: 1 / 2;
+            grid-row: 1 / 4;
+
+        }
+
+    .principal__exibicao {
+        
+        display: flex;
+
+        margin-bottom: 5rem;
+        width: 90%;
+        height: 15rem;
+    }
+
+        .principal__exibicao--filme {
+
+            width: 15%;
+        }
