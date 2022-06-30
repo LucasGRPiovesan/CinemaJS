@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700;800&display=swap');
+
 :root {
 
-    
+    --font_base: 'Mukta', sans-serif; 
 }
 
 .container {
@@ -9,12 +11,18 @@
 
 .active {
             
-    border-left: 10px solid white;
+    border-left: 7px solid white;
+    background-image: linear-gradient(to right, #1b1a1a, #111111);
 }
 
 .centralizado {
     margin: 0 auto;
     text-align: center;
+}
+
+.circle {
+
+    border-radius: 100%;
 }
 
 body {
@@ -32,6 +40,33 @@ body {
     width: 100vw;
     height: 100%;
 
+    font-family: var(--font_base);
     color: white;
-    background: black;
+    background: #1b1a1a;
+}
+
+input {
+
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: 0.1px solid white;
+    width: 100%;
+    cursor: pointer;
+}
+
+select {
+
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 50px;
+    font-size: 1rem;
+}
+
+option {
+
+    background: #111111;
+    border: none;
 }
