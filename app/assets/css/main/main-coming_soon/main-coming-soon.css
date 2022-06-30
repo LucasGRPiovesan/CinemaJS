@@ -1,0 +1,51 @@
+.principal__destaque {
+    
+    display: grid;
+    grid-template-rows: 50rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    grid-gap: 5px;
+
+    width: 90%;
+    height: 50rem;
+
+    margin-bottom: 5rem;
+}
+
+    .principal__destaque--filme {
+
+        box-sizing: border-box;
+    }
+
+    .principal__destaque--filme:nth-child(1) {
+
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+
+        background: url('../../../img/banners/the-batman-2.jpeg') center/ cover no-repeat;
+    }
+
+    .principal__destaque--filme:nth-child(2) {
+
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+
+        background: url('../../../img/banners/avatar-caminho-da-agua-abnner.jpeg') center/ cover no-repeat;
+    }
+
+    .principal__destaque--filme:nth-child(3) {
+
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+
+        background: url('../../../img/banners/spider.jpeg') center/ cover no-repeat;
+    }
+
+    .principal__destaque--filme:nth-child(4) {
+
+        grid-row: 1 / 2;
+        grid-column: 4 / 5;
+
+        background: url('../../../img/banners/black-adam.jpeg') center/ cover no-repeat;
+    }
+

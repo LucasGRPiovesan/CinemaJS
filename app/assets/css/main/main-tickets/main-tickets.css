@@ -1,0 +1,240 @@
+.principal__titulo {
+
+    display: flex;
+    justify-content: space-around;
+
+    width: 90%;
+    height: 9rem;
+    margin-bottom: 2rem;
+}
+
+.principal__titulo div {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    font-size: 3rem;
+
+    padding-bottom: 5px;
+    border-bottom: .2rem solid white;
+
+    width: 30%;
+}
+
+    .principal__titulo div:nth-child(2) {
+
+        height: 80%;
+    }
+
+li {
+
+    margin-bottom: 1rem;
+    list-style: disc;
+}
+
+.circle {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 45%;
+    height: 100%;
+
+    margin: 0 auto;
+    background: #1b1a1a;
+}
+
+.circle img {
+
+    width: 60%;
+    height: auto;
+    filter: invert(100%);
+}
+
+.principal__ingressos {
+
+    display: flex;
+    align-items: baseline !important;
+    justify-content: space-around;
+    
+    width: 90%;
+    height: 38rem;
+}
+
+    .principal__ingressos___estudante {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 30%;
+        height: 30rem;
+        border-radius: 25px;
+        background: #111111;
+        box-shadow: 0px 7px 20px 1px rgb(0, 0, 0);
+    }
+
+        .principal__ingressos___estudante--icone {
+
+            width: 95%;
+            height: 40%;
+            margin-bottom: 1.5rem;
+        }
+        
+        .principal__ingressos___estudante--descricao {
+
+            display: flex;
+            
+            width: 90%;
+            height: 50%;
+            border-radius: 25px;
+            background: #1b1a1a;
+        }
+
+            .principal__ingressos___estudante--descricao div:nth-child(1) {
+
+                padding: 40px;
+
+                font-size: 1.5rem;
+                width: 70%;
+                height: 100%;
+            }
+
+            .principal__ingressos___estudante--descricao div:nth-child(2) {
+
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+
+                width: 30%;
+                height: 100%;
+            }
+
+                .principal__ingressos___estudante--descricao div img {
+
+                    width: 95%;
+                    height: auto;
+                    filter: invert(100%);
+                }
+
+    .principal__ingressos___plus {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 30%;
+        height: 33rem;
+        border-radius: 25px;
+        background: #111111;
+        box-shadow: 0px 7px 20px 1px rgb(0, 0, 0);
+    }
+
+        .principal__ingressos___plus--icone {
+
+            width: 95%;
+            height: 40%;
+            margin-bottom: 1.5rem;
+        }
+
+            .principal__ingressos___plus--icone .circle {
+
+                width: 50%;
+            }
+
+        .principal__ingressos___plus--descricao {
+
+            display: flex;
+
+            width: 90%;
+            height: 50%;
+            border-radius: 25px;
+            background: #1b1a1a;
+        }
+
+            .principal__ingressos___plus--descricao div:nth-child(1) {
+
+                padding: 40px;
+                font-size: 1.5rem;
+
+                width: 70%;
+                height: 100%;
+            }
+
+            .principal__ingressos___plus--descricao div:nth-child(2) {
+
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+
+                width: 30%;
+                height: 100%;
+            }
+
+                .principal__ingressos___plus--descricao div img {
+
+                    width: 95%;
+                    height: auto;
+                    filter: invert(100%);
+                }
+
+    .principal__ingressos___premium {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 30%;
+        height: 30rem;
+        border-radius: 25px;
+        background: #111111;
+        box-shadow: 0px 7px 20px 1px rgb(0, 0, 0);
+    }
+
+        .principal__ingressos___premium--icone {
+
+            width: 95%;
+            height: 40%;
+            margin-bottom: 1.5rem;
+        }
+
+        .principal__ingressos___premium--descricao {
+
+            display: flex;
+
+            width: 90%;
+            height: 50%;
+            border-radius: 25px;
+            background: #1b1a1a;
+        }
+
+            .principal__ingressos___premium--descricao div:nth-child(1) {
+
+                padding: 40px;
+                font-size: 1.5rem;
+
+                width: 70%;
+                height: 100%;
+            }
+
+            .principal__ingressos___premium--descricao div:nth-child(2) {
+
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-end;
+
+                width: 30%;
+                height: 100%;
+            }
+
+                .principal__ingressos___premium--descricao div img {
+
+                    width: 95%;
+                    height: auto;
+                    filter: invert(100%);
+                }

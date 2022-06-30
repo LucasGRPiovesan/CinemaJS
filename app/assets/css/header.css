@@ -6,6 +6,7 @@
 
     display: flex;
     flex-direction: column;
+    background: #111111;
 }
 
     .cabecalho__titulo {
@@ -13,6 +14,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        font-size: 3rem;
+        font-weight: 800;
 
         width: 100%;
         height: 10rem;
@@ -25,17 +29,58 @@
     }
 
         .cabecalho__menu--item {
-            
+
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             
             width: 100%;
             height: 4rem;
+            font-size: 1.1rem;
 
             text-decoration: none;
 
             color: white;
 
             box-sizing: border-box;
+        }
+
+            .cabecalho__menu--item i {
+
+                filter: invert(100%);
+                margin: 0px 10px;
+            }
+
+            .cabecalho__menu--item:nth-child(1) i {
+
+                content: url('../../assets/img/icons/home_icon.png');
+            }
+
+            .cabecalho__menu--item:nth-child(2) i {
+
+                content: url('../../assets/img/icons/ticket_outline_icon.png');
+                height: 32px;
+            }
+
+            .cabecalho__menu--item:nth-child(3) i {
+
+                content: url('../../assets/img/icons/movie_play_icon.png');
+                height: 32px;
+            }
+
+            .cabecalho__menu--item:nth-child(4) i {
+
+                content: url('../../assets/img/icons/cinema_film_movie_multimedia_video_icon.png');
+            }
+
+            .cabecalho__menu--item:nth-child(5) i {
+
+                content: url('../../assets/img/icons/access_enter_input_login_sign\ in_icon.png');
+                height: 27px;
+            }
+        
+        .cabecalho__menu--item:hover {
+            
+            cursor: pointer;
+            background-image: linear-gradient(to right, #1b1a1a, #111111);
         }
