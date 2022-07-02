@@ -6,7 +6,7 @@
 
     display: flex;
     flex-direction: column;
-    background: #111111;
+    background: var(--color-background-container);
 }
 
     .cabecalho__titulo {
@@ -82,5 +82,5 @@
         .cabecalho__menu--item:hover {
             
             cursor: pointer;
-            background-image: linear-gradient(to right, #1b1a1a, #111111);
+            background-image: linear-gradient(to right, var(--color-background-base), var(--color-background-container));
         }
