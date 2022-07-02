@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700;800&display=swap');
-
-:root {
-
-    --font_base: 'Mukta', sans-serif; 
-}
-
 .container {
     border: 1px solid white;
 }
@@ -29,9 +22,8 @@ body {
 
     display: grid;
     grid-template-areas: 
-        "cabecalho"
-                "pagina"
-                "rodape"
+        "cabecalho""pagina"
+                    "rodape"
     ;
 
     grid-template-rows: auto 10rem;
@@ -40,9 +32,9 @@ body {
     width: 100%;
     height: 100%;
 
-    font-family: var(--font_base);
-    color: white;
-    background: #1b1a1a;
+    font-family: var(--fonte-base);
+    color: var(--color-font-base);
+    background: var(--color-background-base);
 }
 
 input {

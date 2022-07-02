@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700;800&display=swap');
+
+:root {
+
+    --fonte-base: 'Mukta', sans-serif;
+
+    --color-background-base: #1b1a1a; 
+    --color-background-btn-red: #7c0404;
+    --color-background-container: #111111;
+    --color-font-base: #ffffff;
+
+    --shadow-click: 0px 5px 20px 1px #000000;
+}
