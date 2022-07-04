@@ -1,36 +1,41 @@
-.cabecalho {
+.base-header, .base-header__title, .base-header__menu, .base-header__menu--item {
+
+    display: flex;
+}
+
+.base-header {
+    
+    background: var(--color-background-container);
+
+    flex-direction: column;
 
     grid-area: cabecalho;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-
-    display: flex;
-    flex-direction: column;
-    background: var(--color-background-container);
 }
 
-    .cabecalho__titulo {
+    .base-header__title {
 
-        display: flex;
         align-items: center;
-        justify-content: center;
 
         font-size: 3rem;
         font-weight: 800;
 
-        width: 100%;
         height: 10rem;
+        
+        justify-content: center;
+
+        width: 100%;
     }
 
-    .cabecalho__menu {
+    .base-header__menu {
 
-        display: flex;
         flex-direction: column;
     }
 
-        .cabecalho__menu--item {
+        .base-header__menu--item {
 
-            display: flex;
+
             align-items: center;
             justify-content: flex-start;
             
@@ -45,41 +50,41 @@
             box-sizing: border-box;
         }
 
-            .cabecalho__menu--item i {
+            .base-header__menu--item::before {
 
                 filter: invert(100%);
                 margin: 0px 10px;
             }
 
-            .cabecalho__menu--item:nth-child(1) i {
+            .base-header__menu--item:nth-child(1)::before {
 
                 content: url('../../assets/img/icons/home_icon.png');
             }
 
-            .cabecalho__menu--item:nth-child(2) i {
+            .base-header__menu--item:nth-child(2)::before {
 
                 content: url('../../assets/img/icons/ticket_outline_icon.png');
                 height: 32px;
             }
 
-            .cabecalho__menu--item:nth-child(3) i {
+            .base-header__menu--item:nth-child(3)::before {
 
                 content: url('../../assets/img/icons/movie_play_icon.png');
                 height: 32px;
             }
 
-            .cabecalho__menu--item:nth-child(4) i {
+            .base-header__menu--item:nth-child(4)::before {
 
                 content: url('../../assets/img/icons/cinema_film_movie_multimedia_video_icon.png');
             }
 
-            .cabecalho__menu--item:nth-child(5) i {
+            .base-header__menu--item:nth-child(5)::before {
 
                 content: url('../../assets/img/icons/access_enter_input_login_sign\ in_icon.png');
                 height: 27px;
             }
         
-        .cabecalho__menu--item:hover {
+        .base-header__menu--item:hover {
             
             cursor: pointer;
             background-image: linear-gradient(to right, var(--color-background-base), var(--color-background-container));

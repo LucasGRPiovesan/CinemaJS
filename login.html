@@ -14,14 +14,14 @@
     <link rel="stylesheet" href="./app/assets/css/footer.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <h1 class="cabecalho__titulo">Cinema<img src="app/assets/img/js.png" alt=""></h1>
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu--item" href="./index.html"><i></i>Home</a>
-            <a class="cabecalho__menu--item" href="./tickets.html"><i></i>Ingressos</a>
-            <a class="cabecalho__menu--item" href="./exhibition.html"><i></i>Em Exibição</a>
-            <a class="cabecalho__menu--item" href="./coming-soon.html"><i></i>Em Breve</a>
-            <a class="cabecalho__menu--item active" href="#"><i></i>Login | Cadastro</a>
+    <header class="base-header">
+        <h1 class="base-header__title">Cinema<img src="./app/assets/img/js.png" alt=""></h1>
+        <nav class="base-header__menu">
+            <a class="base-header__menu--item" href="./index.html">Home</a>
+            <a class="base-header__menu--item" href="./tickets.html">Ingressos</a>
+            <a class="base-header__menu--item" href="./exhibition.html">Em Exibição</a>
+            <a class="base-header__menu--item" href="./coming-soon.html">Em Breve</a>
+            <a class="base-header__menu--item active" href="./login.html">Login | Cadastro</a>
         </nav>
     </header>
     <main class="principal">
@@ -34,9 +34,9 @@
         <section class="principal__form">
             <div class="principal__form__login">
                 <form action="" class="principal__form___login--form">
-                    <div class="principal__titulo">
-                        <h2 class="principal__titulo--titulo">Login</h2>
-                        <hr class="principal__linha">
+                    <div class="principal__section-header">
+                        <h2 class="principal__section-header___title">Login</h2>
+                        <hr class="principal__section-header___line">
                     </div>
                     <div class="form-input">
                         <label for="">Usuário.:</label><input type="text" placeholder="Digite seu usuário">
@@ -49,11 +49,11 @@
                     </div>
                 </form>
             </div>
-            <div class="principal__form__cadastro">
-                <form action="" class="principal__form___cadastro--form">
-                    <div class="principal__titulo">
-                        <h2 class="principal__titulo--titulo">Cadastro</h2>
-                        <hr class="principal__linha">
+            <div class="principal__form__registration">
+                <form action="" class="principal__form__registration--form">
+                    <div class="principal__section-header">
+                        <h2 class="principal__section-header___title">Cadastro</h2>
+                        <hr class="principal__section-header___line">
                     </div>
                     <div class="form-input">
                         <label for="">Nome.:</label><input type="text" placeholder="Informe seu nome completo">
@@ -81,9 +81,9 @@
             </div>
         </section>
     </main>
-    <footer class="rodape">
-        <h3 class="rodape__logo">CinemaJS&copy;&nbsp;|&nbsp;2022</h3>
-        <div class="rodape__links">
+    <footer class="base-footer">
+        <h3 class="base-footer__logo">CinemaJS&copy;&nbsp;|&nbsp;2022</h3>
+        <div class="base-footer__links">
             <!--<div class="principal__titulo">
                 <h4 class="principal__titulo--links">Siga nossas redes sociais</h4>
                 <hr class="principal__linha">
