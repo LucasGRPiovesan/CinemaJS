@@ -4,8 +4,8 @@
 
 .active {
             
-    border-left: 7px solid white;
-    background-image: linear-gradient(to right, #1b1a1a, #111111);
+    border-left: 5px solid var(--color-base);
+    background-image: linear-gradient(to right, #ffe7122c, var(--color-background-base));
 }
 
 .centralizado {

@@ -1,240 +1,214 @@
-.principal__titulo {
+.principal__title, .principal__title div, .circle, .principal__tickets, .principal__tickets___student, .principal__tickets___student--description div:nth-child(2), .principal__tickets___student--description,
+.principal__tickets___premium, .principal__tickets___premium--description, .principal__tickets___premium--description div:nth-child(2), .principal__tickets___entire, .principal__tickets___entire--description, .principal__tickets___entire--description div:nth-child(2) {
 
     display: flex;
-    justify-content: space-around;
+}
 
-    width: 90%;
+.principal__title {
+
     height: 9rem;
+    justify-content: space-around;
     margin-bottom: 2rem;
+    width: 90%;
 }
 
-.principal__titulo div {
+    .principal__title div {
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+        align-items: flex-end;
+        border-bottom: .2rem solid white;
+        font-size: 3rem;
+        justify-content: center;
+        padding-bottom: 5px;
+        width: 30%;
+    }
 
-    font-size: 3rem;
-
-    padding-bottom: 5px;
-    border-bottom: .2rem solid white;
-
-    width: 30%;
-}
-
-    .principal__titulo div:nth-child(2) {
+    .principal__title div:nth-child(2) {
 
         height: 80%;
     }
 
 li {
 
-    margin-bottom: 1rem;
     list-style: disc;
+    margin-bottom: 1rem;
 }
 
 .circle {
 
-    display: flex;
     align-items: center;
-    justify-content: center;
-
-    width: 45%;
-    height: 100%;
-
-    margin: 0 auto;
     background: var(--color-background-base);
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    width: 45%;
 }
 
 .circle img {
 
-    width: 60%;
-    height: auto;
     filter: invert(100%);
+    height: auto;
+    width: 60%;
 }
 
-.principal__ingressos {
+.principal__tickets {
 
-    display: flex;
     align-items: baseline !important;
-    justify-content: space-around;
-    
-    width: 90%;
     height: 38rem;
+    justify-content: space-around;
+    width: 90%;
 }
 
-    .principal__ingressos___estudante {
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .principal__tickets___student {
+        
         align-items: center;
-
-        width: 30%;
-        height: 30rem;
-        border-radius: 25px;
         background: #111111;
+        border-radius: 25px;
         box-shadow: var(--shadow-click);
+        flex-direction: column;
+        height: 30rem;
+        justify-content: center;
+        width: 30%;
     }
 
-        .principal__ingressos___estudante--icone {
+        .principal__tickets___student--icon {
 
-            width: 95%;
             height: 40%;
             margin-bottom: 1.5rem;
+            width: 95%;
         }
         
-        .principal__ingressos___estudante--descricao {
-
-            display: flex;
+        .principal__tickets___student--description {
             
-            width: 90%;
-            height: 50%;
-            border-radius: 25px;
             background: var(--color-background-base);
+            border-radius: 25px;
+            height: 50%;
+            width: 90%;
         }
 
-            .principal__ingressos___estudante--descricao div:nth-child(1) {
-
-                padding: 40px;
+            .principal__tickets___student--description div:nth-child(1) {
 
                 font-size: 1.5rem;
+                height: 100%;
+                padding: 40px;
                 width: 70%;
-                height: 100%;
             }
 
-            .principal__ingressos___estudante--descricao div:nth-child(2) {
+            .principal__tickets___student--description div:nth-child(2) {
 
-                display: flex;
                 align-items: flex-end;
-                justify-content: flex-end;
-
-                width: 30%;
                 height: 100%;
+                justify-content: flex-end;
+                width: 30%;
             }
 
-                .principal__ingressos___estudante--descricao div img {
+                .principal__tickets___student--description div img {
 
-                    width: 95%;
-                    height: auto;
                     filter: invert(100%);
+                    height: auto;
+                    width: 95%;
                 }
 
-    .principal__ingressos___plus {
+    .principal__tickets___premium {
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-
-        width: 30%;
-        height: 33rem;
-        border-radius: 25px;
         background: var(--color-background-container);
+        border-radius: 25px;
         box-shadow: var(--shadow-click);
+        flex-direction: column;
+        height: 33rem;
+        justify-content: center;
+        width: 30%;
     }
 
-        .principal__ingressos___plus--icone {
+        .principal__tickets___premium--icon {
 
-            width: 95%;
-            height: 40%;
             margin-bottom: 1.5rem;
+            height: 40%;
+            width: 95%;
         }
 
-            .principal__ingressos___plus--icone .circle {
+            .principal__tickets___premium--icone .circle {
 
                 width: 50%;
             }
 
-        .principal__ingressos___plus--descricao {
+        .principal__tickets___premium--description {
 
-            display: flex;
-
-            width: 90%;
-            height: 50%;
-            border-radius: 25px;
             background: var(--color-background-base);
+            border-radius: 25px;
+            height: 50%;
+            width: 90%;
         }
 
-            .principal__ingressos___plus--descricao div:nth-child(1) {
+            .principal__tickets___premium--description div:nth-child(1) {
 
-                padding: 40px;
                 font-size: 1.5rem;
-
+                height: 100%;
+                padding: 40px;
                 width: 70%;
-                height: 100%;
             }
 
-            .principal__ingressos___plus--descricao div:nth-child(2) {
+            .principal__tickets___premium--description div:nth-child(2) {
 
-                display: flex;
                 align-items: flex-end;
-                justify-content: flex-end;
-
-                width: 30%;
                 height: 100%;
+                justify-content: flex-end;
+                width: 30%;
             }
 
-                .principal__ingressos___plus--descricao div img {
+                .principal__tickets___premium--description div img {
 
-                    width: 95%;
-                    height: auto;
                     filter: invert(100%);
+                    height: auto;
+                    width: 95%;
                 }
 
-    .principal__ingressos___premium {
+    .principal__tickets___entire {
 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-
-        width: 30%;
-        height: 30rem;
-        border-radius: 25px;
         background: var(--color-background-container);
+        border-radius: 25px;
         box-shadow: var(--shadow-click);
+        flex-direction: column;
+        height: 30rem;
+        justify-content: center;
+        width: 30%;
     }
 
-        .principal__ingressos___premium--icone {
+        .principal__tickets___entire--icone {
 
-            width: 95%;
             height: 40%;
             margin-bottom: 1.5rem;
+            width: 95%;
         }
 
-        .principal__ingressos___premium--descricao {
+        .principal__tickets___entire--description {
 
-            display: flex;
-
-            width: 90%;
-            height: 50%;
-            border-radius: 25px;
             background: var(--color-background-base);
+            border-radius: 25px;
+            height: 50%;
+            width: 90%;
         }
 
-            .principal__ingressos___premium--descricao div:nth-child(1) {
+            .principal__tickets___entire--description div:nth-child(1) {
 
-                padding: 40px;
                 font-size: 1.5rem;
-
+                height: 100%;
+                padding: 40px;
                 width: 70%;
-                height: 100%;
             }
 
-            .principal__ingressos___premium--descricao div:nth-child(2) {
+            .principal__tickets___entire--description div:nth-child(2) {
 
-                display: flex;
                 align-items: flex-end;
-                justify-content: flex-end;
-
-                width: 30%;
                 height: 100%;
+                justify-content: flex-end;
+                width: 30%;
             }
 
-                .principal__ingressos___premium--descricao div img {
+                .principal__tickets___entire--description div img {
 
-                    width: 95%;
-                    height: auto;
                     filter: invert(100%);
+                    height: auto;
+                    width: 95%;
                 }

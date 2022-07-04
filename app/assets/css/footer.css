@@ -1,4 +1,4 @@
-.rodape {
+.base-footer {
 
     display: flex;
 
@@ -9,7 +9,7 @@
     background: var(--color-background-container);
 }
 
-    .rodape__logo {
+    .base-footer__logo {
 
         display: flex;
         align-items: center;
@@ -17,38 +17,3 @@
         width: 70%;
         height: 100%;
     }
-
-    .rodape__links {
-
-        align-self: center;
-
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-
-        padding-top: 10px;
-
-        width: 30%;
-        height: 70%;
-        background: #1b1a1a;
-    }
-
-        .rodape__links--links {
-
-            width: 90%;
-
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        .rodape__links--icon:nth-child(1) {
-
-            content: url('../../assets/img/linked_media_online_social_icon.png');
-        }
-
-        .rodape__links--icon:nth-child(2) {
-
-            content: url('../../assets/img/github_square_icon.png');
-            height: 4rem;
-        }

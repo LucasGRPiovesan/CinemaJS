@@ -14,18 +14,18 @@
     <link rel="stylesheet" href="./app/assets/css/footer.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <h1 class="cabecalho__titulo">Cinema<img src="app/assets/img/js.png" alt=""></h1>
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu--item" href="./index.html"><i></i>Home</a>
-            <a class="cabecalho__menu--item active" href="#"><i></i>Ingressos</a>
-            <a class="cabecalho__menu--item" href="./exhibition.html"><i></i>Em Exibição</a>
-            <a class="cabecalho__menu--item" href="./coming-soon.html"><i></i>Em Breve</a>
-            <a class="cabecalho__menu--item" href="./login.html"><i></i>Login | Cadastro</a>
+    <header class="base-header">
+        <h1 class="base-header__title">Cinema<img src="./app/assets/img/js.png" alt=""></h1>
+        <nav class="base-header__menu">
+            <a class="base-header__menu--item" href="./index.html">Home</a>
+            <a class="base-header__menu--item active" href="./tickets.html">Ingressos</a>
+            <a class="base-header__menu--item" href="./exhibition.html">Em Exibição</a>
+            <a class="base-header__menu--item" href="./coming-soon.html">Em Breve</a>
+            <a class="base-header__menu--item" href="./login.html">Login | Cadastro</a>
         </nav>
     </header>
     <main class="principal">
-        <div class="principal__titulo">
+        <div class="principal__title">
             <div>
                 <h2>Universitário</h2>
             </div>
@@ -36,14 +36,14 @@
                 <h2>Inteira</h2>
             </div>
         </div>
-        <section class="principal__ingressos">
-            <div class="principal__ingressos___estudante">
-                <div class="principal__ingressos___estudante--icone">
+        <section class="principal__tickets">
+            <div class="principal__tickets___student">
+                <div class="principal__tickets___student--icon">
                     <div class="circle">
                         <img src="app/assets/img/two-movie-ticket.png" alt="">
                     </div>
                 </div>
-                <div class="principal__ingressos___estudante--descricao">
+                <div class="principal__tickets___student--description">
                     <div>
                         <ul>
                             <li>Desconto 50%</li>
@@ -57,13 +57,13 @@
                     </div>
                 </div>
             </div>
-            <div class="principal__ingressos___plus">
-                <div class="principal__ingressos___plus--icone">
+            <div class="principal__tickets___premium">
+                <div class="principal__tickets___premium--icon">
                     <div class="circle">
                         <img src="app/assets/img/two-movie-ticket.png" alt="">
                     </div>
                 </div>
-                <div class="principal__ingressos___plus--descricao">
+                <div class="principal__tickets___premium--description">
                     <div>
                         <ul>
                             <li>Desconto 70%</li>
@@ -78,13 +78,13 @@
                     </div>
                 </div>
             </div>
-            <div class="principal__ingressos___premium">
-                <div class="principal__ingressos___premium--icone">
+            <div class="principal__tickets___entire">
+                <div class="principal__tickets___entire--icone">
                     <div class="circle">
                         <img src="app/assets/img/two-movie-ticket.png" alt="">
                     </div>
                 </div>
-                <div class="principal__ingressos___premium--descricao">
+                <div class="principal__tickets___entire--description">
                     <div>
                         <ul>
                             <li>Após 5: desconto 50%</li>
@@ -99,9 +99,9 @@
             </div>
         </section>
     </main>
-    <footer class="rodape">
-        <h3 class="rodape__logo">CinemaJS&copy;&nbsp;|&nbsp;2022</h3>
-        <div class="rodape__links">
+    <footer class="base-footer">
+        <h3 class="base-footer__logo">CinemaJS&copy;&nbsp;|&nbsp;2022</h3>
+        <div class="base-footer__links">
             <!--<div class="principal__titulo">
                 <h4 class="principal__titulo--links">Siga nossas redes sociais</h4>
                 <hr class="principal__linha">
