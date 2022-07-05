@@ -1,6 +1,7 @@
 .base-footer {
 
     display: flex;
+    justify-content: center;
 
     grid-area: rodape;
     grid-column: 2 / 3;
@@ -17,3 +18,20 @@
         width: 70%;
         height: 100%;
     }
+
+
+@media screen and (max-width: 480px) {
+
+    .base-footer {
+
+        display: flex;
+        justify-content: center;
+    
+        grid-area: rodape;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    
+        background: var(--color-background-container);
+        margin-top: 2rem;
+    }
+}

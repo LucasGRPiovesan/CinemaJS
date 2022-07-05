@@ -118,3 +118,41 @@
             padding: 20px;
             width: 70%;
         }
+
+
+@media screen and (max-width: 480px) {
+
+    .principal__titulo-forms {
+
+        align-items: center;
+        height: 10rem;
+        justify-content: center;
+        margin-bottom: 4rem;
+        width: 90%;
+    }
+
+    .principal__form {
+
+        flex-direction: column;
+        height: 50rem;
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+
+        .principal__form__login {
+
+            align-items: center;
+            border-right: none;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        .principal__form__registration {
+
+            align-items: center;
+            border-left: none;
+            justify-content: center;
+            width: 100%;
+        }
+}

@@ -212,3 +212,100 @@ li {
                     height: auto;
                     width: 95%;
                 }
+
+@media screen and (max-width: 480px) {
+
+    .principal__title {
+
+        display: none;
+    }
+
+    .principal__tickets {
+
+        flex-direction: column;
+        margin: 0 auto;
+        height: auto;
+        justify-content: center;
+        width: 100%;
+    }
+
+        .principal__tickets___student {
+            
+            align-items: center;
+            margin: 0 auto;
+            background: #111111;
+            border-radius: 25px;
+            box-shadow: var(--shadow-click);
+            flex-direction: column;
+            height: 25rem;
+            justify-content: center;
+            width: 85%;
+            margin-bottom: 2rem;
+        }
+
+            .principal__tickets___student--description div:nth-child(1) {
+
+                font-size: 1rem;
+                height: 100%;
+                padding: 40px;
+                width: 70%;
+            }
+
+                .principal__tickets___student--description div img {
+
+                    filter: invert(100%);
+                    height: auto;
+                    width: 90%;
+                }
+
+        .principal__tickets___premium {
+
+            align-items: center;
+            background: var(--color-background-container);
+            border-radius: 25px;
+            box-shadow: var(--shadow-click);
+            flex-direction: column;
+            height: 25rem;
+            justify-content: center;
+            width: 85%;
+            margin: 0 auto;
+            margin-bottom: 2rem;
+        }
+
+            .principal__tickets___premium--description div:nth-child(1) {
+
+                font-size: 1rem;
+            }
+
+                .principal__tickets___premium--description div img {
+
+                    filter: invert(100%);
+                    height: auto;
+                    width: 90%;
+                }
+
+        .principal__tickets___entire {
+
+            align-items: center;
+            background: var(--color-background-container);
+            border-radius: 25px;
+            box-shadow: var(--shadow-click);
+            flex-direction: column;
+            height: 25rem;
+            justify-content: center;
+            width: 85%;
+            margin: 0 auto;
+        }
+
+            .principal__tickets___entire--description div:nth-child(1) {
+
+                font-size: 1rem;
+            }
+
+                .principal__tickets___entire--description div img {
+
+                    filter: invert(100%);
+                    height: auto;
+                    width: 90%;
+                }
+}
