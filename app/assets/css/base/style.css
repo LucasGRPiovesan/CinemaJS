@@ -62,3 +62,34 @@ option {
     background: #111111;
     border: none;
 }
+
+
+@media screen and (max-width: 480px) {
+    
+    body {
+
+        display: grid;
+        grid-template-areas: 
+            "cabecalho""pagina"
+                        "rodape"
+        ;
+    
+        grid-template-rows: 15rem auto 10rem;
+        grid-template-columns: 100%;
+    
+        width: 100%;
+        height: 100%;
+    
+        font-family: var(--fonte-base);
+        color: var(--color-font-base);
+        background: var(--color-background-base);
+    }
+
+    .active {
+            
+        border-left: none;
+        border-bottom: 5px solid var(--color-base);
+        background-image: linear-gradient(to top, #ffe7122c, var(--color-background-container));
+    }
+
+}
