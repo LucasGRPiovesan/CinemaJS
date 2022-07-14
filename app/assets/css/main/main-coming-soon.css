@@ -1,12 +1,8 @@
-.principal__highlights {
+.coming-soon {
     
-    display: grid;
-    grid-gap: 5px;
+    height: 50rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 50rem;
-    height: 50rem;
-    margin-bottom: 5rem;
-    width: 90%;
 }
 
     .principal__highlights___movie {
