@@ -1,3 +1,5 @@
+import { FUNCTIONS } from "../functions.js";
+
 export class Header_View {
 
     constructor(header) {
@@ -23,10 +25,9 @@ export class Header_View {
     template_items(component) {
 
         let itens_template = '';
-        let locale = "." + window.location.pathname;
 
         for (let i = 0; i < component.items.length; i++) {
-            itens_template += `<a class="base-header__menu--item ${(component.href[i] == locale) ? 'active' : (window.location.pathname == "/" && component.items[i] == "Home")?"active":""}" href="${component.href[i]}">${component.items[i]}</a>`
+            itens_template += `<a class="base-header__menu--item ${(FUNCTIONS.verify_active(window.location.pathname) == component.href[i])?'active':""}" href="${component.href[i]}">${component.items[i]}</a>`
         }
 
         return itens_template;
