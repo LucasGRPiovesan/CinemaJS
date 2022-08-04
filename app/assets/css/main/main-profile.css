@@ -1,0 +1,334 @@
+.principal__panel {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 70rem;
+    width: 90%;
+}
+
+    .principal__panel___client-graphic {
+
+        display: flex;
+        flex-direction: column;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .principal__section-header {
+
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .principal__section-header___title {
+        
+        margin: 0 auto;
+        width: fit-content;
+    }
+    
+    .principal__panel___client-graphic--graphic {
+        
+        align-items: flex-end;
+        align-self: center;
+        border-bottom: 1px solid white;
+        display: flex;
+        height: 500px;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+        .principal__panel___client-graphic--graphic div {
+
+            background: var(--color-base);
+            display: flex;
+            justify-content: center;
+            width: 7%;
+        }
+
+        #client_bar_action {
+            height: 30%;
+        }
+
+        #client_bar_thriller {
+            height: 40%;
+        }
+
+        #client_bar_horror {
+            height: 50%;
+        }
+
+        #client_bar_drama {
+            height: 60%;
+        }
+
+        #client_bar_animation {
+            height: 70%;
+        }
+
+        .principal__panel___client-graphic--graphic div:hover {
+
+            background: #ccb90c;
+            cursor: pointer;
+        }
+
+            .client_bar--percent {
+
+                align-items: center;
+                background-color: var(--color-background-base);
+                border-radius: 100%;
+                color: white;
+                display: flex;
+                font-weight: 700;
+                height: 50px;
+                justify-content: center;
+                margin-top: -25px;
+                width: 50px;
+            }
+
+    .principal__panel___client-graphic--legend {
+
+        align-items: center;
+        align-self: center;
+        display: flex;
+        height: 1.5rem;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+        .principal__panel___client-graphic--legend span {
+
+            height: 100%;
+            margin-top: 1rem;
+            text-align: center;
+            width: 7%;
+        }
+
+.principal__panel___tickets {
+
+    display: flex;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    height: 88%;
+}
+
+    .principal__panel___tickets--list {
+    
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 1rem;
+        overflow: scroll;
+        width: 100%;
+    }
+
+    .ticket {
+
+        background-color: var(--color-background-container);
+        border-radius: 10px;
+        cursor: pointer;
+        display: flex;
+        height: 170px;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        padding: 10px;
+        transition: .2s ease-in-out;
+        width: 85%;
+    }
+
+        .ticket:hover {
+            background-color: #111111b2;
+            box-shadow: var(--shadow-click);
+        }
+
+    .ticket-img {
+
+        height: 150px;
+        margin-right: 10px;
+        width: 25%;
+    }
+
+    .ticket-info {
+
+        border-left: 1px solid white;
+        border-style: dashed;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 100%;
+        padding-left: 10px;
+        width: 72%;
+    }
+
+    .ticket-info div {
+
+        align-items: center;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        .ticket-info--title {
+
+            grid-column: 1 / 4;
+            grid-row: 1 / 2;
+        }
+
+        .ticket-info--tags {
+
+            grid-column: 1 / 4;
+            grid-row: 2 / 3;
+            justify-content: flex-start;
+        }
+
+            .ticket-info--tags span {
+                border: 1px solid white;
+                margin-right: 2%;
+                padding: 4px;
+                width: fit-content;
+            }
+
+        .ticket-info--city {
+
+            display: flex;
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+            justify-content: flex-start;
+        }
+
+        .ticket-info--room { 
+
+            justify-content: flex-start;
+        }
+
+        .ticket-info--session { 
+
+            justify-content: flex-start;
+        }
+
+        .ticket-info--armchais { 
+
+            flex-wrap: wrap;
+            grid-column: 1 / 4;
+            grid-row: 4 / 5;
+            justify-content: flex-start;
+        }
+
+            .armchair { 
+
+                align-items: center;
+                border-right: 1px solid #eeeeee;
+                color: var(--color-base);
+                display: flex;
+                font-size: 90%;
+                font-weight: bold;
+                height: 20px;
+                justify-content: center;
+                margin-right: 10px;
+                padding-right: 10px; 
+                transition: .2s ease-in-out;
+                width: 20px;
+            }
+            
+            .armchair:last-child {
+                border-right: none;
+            }
+
+.principal__panel___coupons {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+    .principal__panel___coupons--list {
+
+        display: flex;
+        height: 100%;
+        justify-content: space-between;
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    .coupon {
+
+        background: var(--color-background-container);
+        border-radius: 10px;
+        height: 68%;
+        margin-bottom: 1rem;
+        width: 20%;
+    }
+
+        .coupon:hover {
+
+            background-color: #111111b2;
+            box-shadow: var(--shadow-click);
+        }
+
+        .coupon__content {
+
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 70%;
+            justify-content: center;
+            width: 100%;
+        }
+
+            .coupon__content--percent {
+
+                align-items: center;
+                border: 2px solid var(--color-base);
+                border-radius: 100%;
+                display: flex;
+                font-size: 1.4rem;
+                height: 75px;
+                justify-content: center;
+                width: 75px;
+            }
+
+            .ticket-icon {
+
+                background: url('../../img/icons/ticket-64.png');
+                background-position: center;
+                background-size: 80%;
+                background-repeat: no-repeat;
+            }
+
+            .coupon__content--info {
+
+                font-size: 1.5rem;
+                margin-top: 2rem;
+                text-align: center;
+                width: 100%;
+            }
+
+        .coupon__btn-field {
+
+            align-items: center;
+            border-top: 1px solid white;
+            border-style: dashed;
+            display: flex;
+            height: 30%;
+            justify-content: center;
+        }
+
+            .coupon__btn-field input {
+
+                border: 1px solid white;
+                font-size: 1rem;
+                font-weight: 400;
+                height: 50%;
+                transition: .2s ease-in-out;
+                width: 80%;
+            }
+
+            .coupon__btn-field input:hover {
+
+                background: var(--color-base);
+                color: var(--color-background-container);
+                font-weight: 400;
+            }
