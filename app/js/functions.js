@@ -43,6 +43,11 @@ const verify_active = pathname => {
         case "/CinemaJS/login.html":
 
             return "./login.html";
+
+        case "/user-page.html":
+        case "/CinemaJS/user-page.html":
+
+            return "./user-page.html";
     
         default:
             break;

@@ -16,6 +16,7 @@ export class Header_View {
 
         this._template = `
             <h1 class="base-header__title">Cinema<img src="./app/assets/img/js.png" alt=""></h1>
+            ${this.template_profile()}
             <nav class="base-header__menu">
                 ${ this.template_items(component) }
             </nav>
@@ -31,5 +32,13 @@ export class Header_View {
         }
 
         return itens_template;
+    }
+
+    template_profile() {
+
+        return `
+            <a class="base-header__profile-image ${(window.location.pathname == "/user-page.html" || window.location.pathname == "/CinemaJS/user-page.html")?'active_user-page':''}" href="./user-page.html"></a>
+            <span class="base-header__profile-name">Olá, Lucas.</span>
+        `;
     }
 }

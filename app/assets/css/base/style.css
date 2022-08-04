@@ -8,6 +8,10 @@
     background-image: linear-gradient(to right, #ffe7122c, var(--color-background-base));
 }
 
+.active_user-page {
+    border: 5px solid var(--color-base) !important;
+} 
+
 .centralizado {
     margin: 0 auto;
     text-align: center;

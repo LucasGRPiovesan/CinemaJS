@@ -28,6 +28,28 @@
         width: 100%;
     }
 
+    .base-header__profile-image {
+
+        align-self: center;
+        background: url('../img/user/teste.jpg') center/ cover no-repeat;
+        border: 5px solid white;
+        border-radius: 100px;
+        height: 7rem;
+        margin-bottom: .7rem;
+        width: 7rem;
+        transition: .2s ease-in-out;
+    }
+
+        .base-header__profile-image:hover {
+            border: 5px solid var(--color-base);
+        }
+    
+    .base-header__profile-name {
+        
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
     .base-header__menu {
 
         flex-direction: column;
