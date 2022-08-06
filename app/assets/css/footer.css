@@ -52,15 +52,8 @@
 
     .base-footer {
 
-        display: flex;
-        justify-content: center;
-    
-        grid-area: rodape;
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-    
-        background: var(--color-background-container);
         margin-top: 2rem;
+        height: 10rem;
     }
 
         .base-footer__line {

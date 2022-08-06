@@ -15,6 +15,9 @@ export class Header_View {
     set template(component) {
 
         this._template = `
+            <div class="base-header__mobile">
+                <span class="base-header__mobile--icon"></sapn>
+            </div>
             <h1 class="base-header__title">Cinema<img src="./app/assets/img/js.png" alt=""></h1>
             ${this.template_profile()}
             <nav class="base-header__menu">
