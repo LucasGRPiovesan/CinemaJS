@@ -332,3 +332,40 @@
                 color: var(--color-background-container);
                 font-weight: 400;
             }
+
+@media screen and (max-width: 480px) {
+
+    .principal__panel {
+
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }  
+    
+        .principal__panel___client-graphic {
+
+            display: none;
+            
+        }
+
+            .ticket {
+
+                height: 10rem;
+                width: 95%;
+            }
+
+        .principal__panel___coupons--list {
+            
+            flex-direction: column;
+        }
+
+            .coupon {
+
+                border-radius: 10px;
+                height: 20rem;
+                margin: 0 auto;
+                margin-bottom: 1rem;
+                width: 15rem;
+            }
+}
