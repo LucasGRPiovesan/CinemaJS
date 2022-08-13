@@ -14,13 +14,15 @@ $('.principal__mobile-header--menu').addEventListener('click', ()=> {
     $('.base-header').classList.add('display-menu');
     $('.principal').style.display = 'none';
     $('.base-footer').style.display = 'none';
+    $('.principal__mobile-header--menu').style.display = 'none';
 });
 
-$('.base-header__mobile--icon').addEventListener('click', ()=> {
+$('.base-header__content___mobile--icon').addEventListener('click', ()=> {
     $('.base-header').classList.toggle('display-menu');
     setTimeout(()=> {
         $('.principal').style.display = 'flex';
         $('.base-footer').style.display = 'flex';
+        $('.principal__mobile-header--menu').style.display = 'flex';
     },200);
 });
 

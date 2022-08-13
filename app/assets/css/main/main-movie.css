@@ -258,6 +258,11 @@ p {
 
 @media screen and (max-width: 480px) {
 
+    .principal__movie {
+
+        padding-top: 8rem;
+    }
+
     .principal__movie___title {
 
         height: 20rem;

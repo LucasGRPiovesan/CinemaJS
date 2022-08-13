@@ -191,18 +191,22 @@
 
     .principal {
 
-        padding-top: 0;
+        padding-top: 7rem;
     }
         .principal__mobile-header {
 
             display: flex;
+            position: fixed;
 
             background: var(--color-background-container);
+            box-shadow: var(--shadow-click);
 
             width: 100vw;
             height: 5rem;
 
             margin-bottom: 2.5rem;
+            top: 0;
+            z-index: 4;
         }
 
             .principal__mobile-header--menu {
