@@ -1,0 +1,350 @@
+.principal {
+    padding-top: 0;
+}
+
+    .principal__movie {
+
+        height: 117rem;
+        width: 100%;
+    }
+
+        .principal__movie___title {
+            align-items: center;
+            background: url('../../img/movies/background/the_batman.jpeg') top/cover no-repeat;
+            display: flex;
+            height: 45rem;
+            justify-content: center;
+            margin-bottom: 3rem;
+            width: 100%;
+        }
+
+            .principal__movie___title img {
+                box-sizing: border-box !important;
+                height: 12rem;
+                margin-top: -10rem;
+                width: auto;
+            }
+
+        .principal__movie___main {
+
+            display: grid;
+            height: auto;
+            margin: 0 auto;
+            margin-top: -20rem;
+            width: 90%;
+        }
+
+            .principal__movie___main--movie {
+
+                box-shadow: var(--shadow-click);
+                height: 29rem;
+                justify-self: flex-start;
+                margin-top: -16.3rem;
+                position: fixed;
+                width: 19rem;
+            }
+
+                .main--movie__poster {
+                    background: url('../../img/the-batman.jpeg') center/cover no-repeat;
+                    height: 100%;
+                }
+
+                    .main--movie__poster img { 
+                        height: auto;
+                        width: 100%;
+                    }
+
+            .principal__movie___main--sessions {
+
+                height: 50rem;
+                justify-self: flex-end;
+                width: 75%;
+            }
+
+                .main--sessions__datas {
+
+                    display: flex;
+                    height: 15%;
+                    justify-content: space-between;
+                    margin: 1.5rem auto;
+                }
+
+                    .main--sessions__datas___list {
+
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 0 auto;
+                        width: 90%;
+                    }
+
+                        .main--sessions__datas___list--data {
+
+                            background-color: var(--color-background-container);
+                            border-top-left-radius: 30px;
+                            border-top-right-radius: 30px;
+                            box-shadow: var(--shadow-click);
+                            display: flex;
+                            flex-direction: column;
+                            width: 10%;
+                        }
+
+                            .main--sessions__datas___list--data div {
+                                
+                                align-items: center;
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .main--sessions__datas___list--data div:nth-child(1) {
+
+                                background-color: #B50C0E;
+                                border-bottom: 1px solid white;
+                                border-style: dashed;
+                                border-top-left-radius: 30px;
+                                border-top-right-radius: 30px;
+                                height: 30%;
+                                width: 100%;
+                            }
+
+                            .main--sessions__datas___list--data div:nth-child(2) {
+
+                                color: #B50C0E;
+                                font-size: 2.5rem;
+                                height: 70%;
+                                width: 100%;
+                            }
+
+                .main--sessions__rooms {
+
+                    display: flex;
+                    height: 75%;
+                    margin: 0 auto;
+                    margin-bottom: 2rem;
+                    width: 95%;
+                }
+
+                    .main--sessions__rooms___list {
+
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                    }
+
+                    .main--sessions__rooms___list--room {
+                        
+                        background-color: var(--color-background-container);
+                        border-top-left-radius: 30px;
+                        border-top-right-radius: 30px;
+                        box-shadow: var(--shadow-click);
+                        display: flex;
+                        flex-direction: column;
+                        height: 100%;
+                        width: 20%;
+                    }
+
+                        .main--sessions__rooms___list--room div:nth-child(1) {
+
+                            align-items: center;
+                            color: #B50C0E;
+                            display: flex;
+                            height: 10%;
+                            justify-content: center;
+                        }
+
+                        .main--sessions__rooms___list--room div:nth-child(2) {
+
+                            display: flex;
+                            flex-direction: column;
+                            height: 90%;
+                            justify-content: space-around;
+                        }
+
+                            .main--sessions__rooms___list--room div:nth-child(2) a {
+
+                                align-items: center;
+                                border: 3px solid white;
+                                box-shadow: var(--shadow-click);
+                                color: white;
+                                display: flex;
+                                height: 2.5rem;
+                                justify-content: center;
+                                margin: 0 auto;
+                                text-decoration: none;
+                                width: 60%;
+                            }
+
+                            .main--sessions__rooms___list--room div:nth-child(2) a:hover {
+
+                                border: 3px solid #B50C0E;
+                                box-shadow: none;
+                            }
+
+                .principal__section-header {
+
+                    margin: 0 auto;
+                    margin-bottom: 2rem;
+                    margin-top: 3rem;
+                    width: 95%;
+                }
+
+                .main--sessions__info {
+
+                    display: grid;
+                    grid-gap: 2rem;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+                    height: 30rem;
+                    margin: 0 auto;
+                    width: 95%;
+                }
+
+                    .main--sessions__info span {
+
+                        align-items: center;
+                        border-left: 5px solid #B50C0E;
+                        display: flex;
+                        padding-left: .5rem;
+                    }
+
+                    .main--sessions__info span:nth-child(1) {
+
+                        grid-column: 1 / 3;
+                        grid-row: 1 / 2;
+                    }
+
+                    .main--sessions__info span:nth-child(2) {
+
+                        font-size: 1.3rem;
+                        grid-column: 1 / 2;
+                        grid-row: 2 / 3;
+                    }
+
+                    .main--sessions__info span:nth-child(3) {
+                        
+                        font-size: 1.3rem;
+                        grid-column: 2 / 3;
+                        grid-row: 2 / 3;
+                    }
+
+                    .main--sessions__info span:nth-child(4) {
+
+                        font-size: 1.3rem;
+                        grid-column: 1 / 2;
+                        grid-row: 3 / 4;
+                    }
+
+                    .main--sessions__info span:nth-child(5) {
+
+                        font-size: 1.3rem;
+                        grid-column: 2 / 3;
+                        grid-row: 3 / 4;
+                    }
+
+                    .main--sessions__info span:nth-child(6) {
+
+                        grid-column: 1 / 3;
+                        grid-row: 4 / 6;
+                        text-align: left;
+                    }
+
+div h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.6rem;
+    width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+
+    .principal__movie___title {
+
+        height: 20rem;
+        margin-top: -3rem;
+    }
+
+        .principal__movie___title img {
+
+            box-sizing: border-box !important;
+            height: auto;
+            margin-top: -5rem;
+            width: 12rem;
+        }
+
+    .principal__movie___main {
+
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0 auto;
+        margin-top: none;
+    }
+
+        .principal__movie___main--movie {
+
+            box-shadow: var(--shadow-click);
+            height: 14rem;
+            justify-self: flex-start;
+            margin-top: -10rem;
+            position: initial;
+            width: 9rem;
+        }
+
+            .main--movie__poster {
+
+                background: url('../../img/the-batman.jpeg') center/cover no-repeat;
+                height: 100%;
+            }
+
+        .principal__movie___main--sessions {
+
+            width: 100%;
+        }
+
+            .main--sessions__datas {                
+                
+                overflow-x: scroll;
+                width: 100%;
+            }
+
+                .main--sessions__datas___list {
+
+                    width: auto;
+                }
+
+                    .main--sessions__datas___list--data {
+
+                        margin: 1rem;
+                        width: 5rem;
+                    }
+
+            .main--sessions__rooms {
+
+                overflow-x: scroll;
+                width: 100%;
+            }
+
+                .main--sessions__rooms___list {
+
+                    justify-content: space-around;
+                    width: auto;
+                }
+
+                    .main--sessions__rooms___list--room {
+
+                        box-sizing: border-box;
+                        height: 90%;
+                        margin: 1rem;
+                        width: 10rem;
+                    }
+
+    p {
+        
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+}
+
+    

@@ -10,8 +10,8 @@ export class Header_Controller {
     static display_header() {
 
         const header = {
-            items: ['Home', 'Ingresso', 'Em Exibição', 'Em Breve', 'Login&nbsp;|&nbsp;Cadastro'],
-            href: ["./index.html", "./tickets.html", "./exhibition.html", "./coming-soon.html", "./login.html"]
+            items: ['Home', 'Ingresso', 'Em Exibição', 'Em Breve', 'Login&nbsp;|&nbsp;Cadastro', 'Página do filme (Em Andamento)'],
+            href: ["./index.html", "./tickets.html", "./exhibition.html", "./coming-soon.html", "./login.html", "./movie-page.html"]
         };
 
         const template = new Header_View(header).template
